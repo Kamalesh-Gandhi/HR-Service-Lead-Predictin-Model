@@ -75,4 +75,33 @@ Open a terminal and run:
 ```sh
 git clone <YOUR_GITHUB_REPO_URL>
 
----
+Step 2: Navigate to the Repository
+sh
+Copy
+Edit
+cd your-repo
+🔹 Step 3: Move Project Files into the Repo
+Copy your project files into the cloned repo directory.
+You can do this manually or use the command:
+
+sh
+Copy
+Edit
+mv /path/to/your/project/* your-repo/
+🔹 Step 4: Add Files to Git Tracking
+sh
+Copy
+Edit
+git add .
+This stages all new and modified files.
+
+🔹 Step 5: Commit the Changes
+sh
+Copy
+Edit
+git commit -m "Added machine learning project files"
+🔹 Step 6: Push Changes to GitHub
+sh
+Copy
+Edit
+git push origin main
