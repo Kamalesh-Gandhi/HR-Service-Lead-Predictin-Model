@@ -56,3 +56,11 @@ These files ensure **consistent transformation and model inference** across data
 ### 📂 `submission/`
 This folder contains:
 - **`submission.csv`** → The **final prediction file**, containing:
+
+---
+
+## **Key Takeaways**
+- **Preprocessed data effectively**, ensuring consistency.  
+- **Trained multiple ML models**, selecting the best-performing one (**XGBoost**).  
+- **Optimized model performance** using hyperparameter tuning.  
+- **Standardized workflows** for training, evaluation, and submission.  
