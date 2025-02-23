@@ -1,13 +1,13 @@
 # **Predict High-Potential HR Service Leads**
 
 ## **Project Overview**
-This project aims to predict **high-potential HR service leads** based on companies' **funding and hiring trends**. The dataset includes **synthetic data** to simulate real-world scenarios for developing and testing predictive models. The goal is to classify companies as **"hot leads"** using machine learning techniques.
+This project predicts **high-potential HR service leads** by analyzing **funding and hiring trends** of companies. The dataset includes **synthetic data** that mimics real-world scenarios, and various machine learning models were trained to classify companies as **"hot leads"** using predictive modeling.
 
 ---
 
 ## **Project Structure**
 
-### 📂 **`main.ipynb`**
+### 📂 `main.ipynb`
 This Jupyter Notebook contains the entire **workflow of the project**, including:
 - **Data Preprocessing**
   - Handling missing values  
@@ -29,31 +29,30 @@ This Jupyter Notebook contains the entire **workflow of the project**, including
 
 ---
 
-### 📂 **`saved_scaler/`**
+### 📂 `DataSets/`
 This folder contains:
-- **`standard_scaler.pkl`** → The **trained StandardScaler object** used to standardize numerical features before training the model.  
-- This ensures consistency when applying transformations to test and holdout datasets.
+- **`train.xlsx`** → Raw training dataset  
+- **`test.xlsx`** → Raw test dataset  
+- **`holdout.xlsx`** → Holdout dataset for final prediction  
+- **`Processed_train_data.xlsx`** → Preprocessed training data  
+- **`Processed_test_data.xlsx`** → Preprocessed test data  
+- **`Processed_holdout_data.xlsx`** → Preprocessed holdout dataset  
+- **`submission.xlsx`** → Final submission file  
+
+Each dataset has undergone **data preprocessing** steps to ensure consistency.
 
 ---
 
-### 📂 **`dataset/`**
-This folder contains:
-- **`train.csv`** → Original training dataset  
-- **`test.csv`** → Original test dataset  
-- **`holdout.csv`** → Dataset for final prediction  
-- **`cleaned_train.csv`** → Preprocessed training data after cleaning, encoding, and scaling  
+### 📂 `PKL_files/`
+This folder contains essential **saved machine learning artifacts**:
+- **`best_xgboost_model.pkl`** → The best-trained XGBoost model after hyperparameter tuning  
+- **`scaler.pkl`** → The trained `StandardScaler` object used for feature scaling  
+- **`Encoded.pkl`** → The saved encoding mappings for categorical features  
 
-Each dataset has undergone **proper preprocessing steps**, ensuring **data consistency** across training, validation, and testing.
-
----
-
-### 📂 **`best_model/`**
-This folder contains:
-- **`best_xgb_model.pkl`** → The **best-performing XGBoost model** after hyperparameter tuning.  
-- This model was trained using optimized parameters to improve accuracy, F1-score, and recall.
+These files ensure **consistent transformation and model inference** across datasets.
 
 ---
 
-### 📂 **`submission/`**
+### 📂 `submission/`
 This folder contains:
 - **`submission.csv`** → The **final prediction file**, containing:
