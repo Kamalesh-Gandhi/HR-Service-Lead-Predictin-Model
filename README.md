@@ -59,6 +59,14 @@ This folder contains:
 
 ---
 
+## **HyperParameter Tuning Results**
+Before Tuning
+![image](https://github.com/user-attachments/assets/ca22e0c7-4294-411b-843e-230d5e9f0664)
+
+After Tuning
+![image](https://github.com/user-attachments/assets/9335d805-f017-4442-bac3-6db9bd0b1f37)
+
+---
 
 ## **Key Takeaways**
 - **Preprocessed data effectively**, ensuring consistency.  
