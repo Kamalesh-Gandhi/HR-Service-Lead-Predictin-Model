@@ -59,6 +59,15 @@ This folder contains:
 
 ---
 
+## **How to Clone and Add Files to This Repository**
+
+### **🔹 Step 1: Clone the Repository**
+Open a terminal and run:
+```sh
+git clone <YOUR_GITHUB_REPO_URL>
+
+---
+
 ## **Key Takeaways**
 - **Preprocessed data effectively**, ensuring consistency.  
 - **Trained multiple ML models**, selecting the best-performing one (**XGBoost**).  
